@@ -1,0 +1,4 @@
+.env
+*.lock
+.DS_Store
+.ipynb_checkpoints
