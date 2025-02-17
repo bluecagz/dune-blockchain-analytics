@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "token_flow"
+version = "0.1.0"
+description = "Dune analysis on PAXG transfer flow"
+authors = ["bluecagz"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.1"
+dune-client = "^1.7.8"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+plotly = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.1.1"]
